@@ -79,7 +79,7 @@ while True:
         arr = [[LH,LS,LV],[UH, US, UV]]
         print(arr)
         
-        # Also save this array as penval.npy
+        # Also save this array as values.npy (contains the value of object which can be seen)
         np.save('values',arr)
         break
     
